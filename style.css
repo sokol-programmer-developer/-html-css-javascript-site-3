@@ -55,6 +55,7 @@ aside {
   justify-content: center;
   justify-items: center;
 }
+
 /*----------------------------block----------------------------*/
 /*---------------------------picture---------------------------*/
 
@@ -98,6 +99,16 @@ section {
 }
 
 header {
+  display: grid;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+hgroup {
   display: grid;
   position: relative;
   text-align: center;
@@ -369,6 +380,10 @@ header {
 
 .top-5 {
   top: 5vh;
+}
+
+.top-3 {
+  top: 3vh;
 }
 
 .top-1 {
